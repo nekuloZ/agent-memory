@@ -1,0 +1,89 @@
+{
+  "skill_name": "session_startup",
+  "evals": [
+    {
+      "id": 1,
+      "name": "morning-greeting",
+      "prompt": "早上好",
+      "expected_output": "生成个性化简报，包含睡眠状态、活跃任务、建议",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "name": "noon-greeting",
+      "prompt": "中午好",
+      "expected_output": "生成简报，询问上午进展",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "name": "evening-greeting",
+      "prompt": "晚上好",
+      "expected_output": "生成简报，总结今日完成情况",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "name": "hey-jarvis",
+      "prompt": "hey jarvis",
+      "expected_output": "生成个性化简报",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "name": "hi-jarvis",
+      "prompt": "hi jarvis，今天有什么任务？",
+      "expected_output": "生成简报并显示待办任务",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "name": "session-start-context",
+      "prompt": "SessionStart hook 触发，需要加载上下文",
+      "expected_output": "执行完整的上下文加载流程",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "name": "new-day-start",
+      "prompt": "新的一天开始了，帮我看看今天该做什么",
+      "expected_output": "触发 session_startup 生成简报",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "name": "resume-work",
+      "prompt": "继续工作",
+      "expected_output": "触发简报，显示上次的工作状态",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "name": "specific-task-request",
+      "prompt": "帮我分析一下这个数据",
+      "expected_output": "不应该触发 session_startup（直接处理请求）",
+      "should_trigger": false
+    },
+    {
+      "id": 10,
+      "name": "technical-question",
+      "prompt": "Python 的 asyncio 怎么用？",
+      "expected_output": "不应该触发 session_startup",
+      "should_trigger": false
+    },
+    {
+      "id": 11,
+      "name": "mid-conversation-greeting",
+      "prompt": "用户: 帮我写个脚本\nAI: 好的\n用户: 早上好（已经对话中）",
+      "expected_output": "可能不应该触发（取决于实现）",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "name": "goodbye",
+      "prompt": "再见",
+      "expected_output": "不应该触发 session_startup",
+      "should_trigger": false
+    }
+  ]
+}

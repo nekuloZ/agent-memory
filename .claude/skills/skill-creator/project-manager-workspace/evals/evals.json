@@ -1,0 +1,17 @@
+{
+  "skill_name": "project_manager",
+  "evals": [
+    {"id": 1, "name": "project-create-1", "prompt": "创建项目：财务看板", "expected_output": "触发项目创建", "should_trigger": true},
+    {"id": 2, "name": "project-create-2", "prompt": "新建一个AI助手项目", "expected_output": "触发项目创建", "should_trigger": true},
+    {"id": 3, "name": "project-create-3", "prompt": "开新项目 Seedance", "expected_output": "触发项目创建", "should_trigger": true},
+    {"id": 4, "name": "project-enter-1", "prompt": "进入项目：财务看板", "expected_output": "触发项目进入", "should_trigger": true},
+    {"id": 5, "name": "project-enter-2", "prompt": "切换到Seedance项目", "expected_output": "触发项目进入", "should_trigger": true},
+    {"id": 6, "name": "project-status", "prompt": "项目进展", "expected_output": "触发项目状态查看", "should_trigger": true},
+    {"id": 7, "name": "project-list", "prompt": "有哪些项目", "expected_output": "触发项目列表", "should_trigger": true},
+    {"id": 8, "name": "project-view", "prompt": "查看所有项目", "expected_output": "触发项目列表", "should_trigger": true},
+    {"id": 9, "name": "project-archive", "prompt": "归档项目：旧项目", "expected_output": "触发项目归档", "should_trigger": true},
+    {"id": 10, "name": "project-exit", "prompt": "退出项目", "expected_output": "触发项目退出", "should_trigger": true},
+    {"id": 11, "name": "not-project", "prompt": "项目做得怎么样了", "expected_output": "不应该触发（模糊询问）", "should_trigger": false},
+    {"id": 12, "name": "not-project-task", "prompt": "项目里的任务完成了", "expected_output": "不应该触发（属于task_completion）", "should_trigger": false}
+  ]
+}

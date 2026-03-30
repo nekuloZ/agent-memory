@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-03-20",
+  "note": "price字段已忽略",
+  "configs": [
+    {
+      "id": "nano-banana-rim-3-pro",
+      "name": "Nano Banana Rim 3 Pro",
+      "type": "image",
+      "endpoint": "http://64.186.244.43:12001/v1beta/models/「Rim」gemini-3-pro-image-preview:generateContent",
+      "model": "「Rim」gemini-3-pro-image-preview",
+      "apiKey": "sk-nbTp44JnhLAVYTIi0q5pQhBwJ07n99fQvJ8GNS2I2bifAezM",
+      "isDefault": true
+    },
+    {
+      "id": "nano-banana-rim-31",
+      "name": "Nano Banana Rim 3.1",
+      "type": "image",
+      "endpoint": "http://64.186.244.43:12001/v1beta/models/「Rim」gemini-3.1-flash-image-preview:generateContent",
+      "model": "「Rim」gemini-3.1-flash-image-preview",
+      "apiKey": "sk-nbTp44JnhLAVYTIi0q5pQhBwJ07n99fQvJ8GNS2I2bifAezM",
+      "isDefault": false
+    },
+    {
+      "id": "nano-banana-yq-3-pro",
+      "name": "Nano Banana YQ 3 Pro",
+      "type": "image",
+      "endpoint": "http://64.186.244.43:12001/v1beta/models/「YQ」gemini-3-pro-image-preview:generateContent",
+      "model": "「YQ」gemini-3-pro-image-preview",
+      "apiKey": "sk-nbTp44JnhLAVYTIi0q5pQhBwJ07n99fQvJ8GNS2I2bifAezM",
+      "isDefault": false
+    },
+    {
+      "id": "nano-banana-yq-31",
+      "name": "Nano Banana YQ 3.1",
+      "type": "image",
+      "endpoint": "http://64.186.244.43:12001/v1beta/models/「YQ」gemini-3.1-flash-image-preview:generateContent",
+      "model": "「YQ」gemini-3.1-flash-image-preview",
+      "apiKey": "sk-nbTp44JnhLAVYTIi0q5pQhBwJ07n99fQvJ8GNS2I2bifAezM",
+      "isDefault": false
+    },
+    {
+      "id": "grsai-pro",
+      "name": "GRSAI Pro",
+      "type": "image",
+      "endpoint": "https://grsaiapi.com/v1beta/models/nano-banana-pro:generateContent",
+      "model": "nano-banana-pro",
+      "apiKey": "sk-3009f754e03f4fb6a5388eb3766459b8",
+      "isDefault": false
+    },
+    {
+      "id": "grsai-2",
+      "name": "GRSAI 2",
+      "type": "image",
+      "endpoint": "https://grsaiapi.com/v1beta/models/nano-banana-2:generateContent",
+      "model": "nano-banana-2",
+      "apiKey": "sk-3009f754e03f4fb6a5388eb3766459b8",
+      "isDefault": false
+    },
+    {
+      "id": "grsai-pro-vt",
+      "name": "GRSAI Pro VT",
+      "type": "image",
+      "endpoint": "https://grsaiapi.com/v1beta/models/nano-banana-pro-vt:generateContent",
+      "model": "nano-banana-pro-vt",
+      "apiKey": "sk-3009f754e03f4fb6a5388eb3766459b8",
+      "isDefault": false
+    }
+  ]
+}

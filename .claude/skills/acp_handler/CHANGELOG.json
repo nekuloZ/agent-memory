@@ -1,0 +1,34 @@
+{
+  "versions": [
+    {
+      "version": "v2.0",
+      "date": "2026-03-23",
+      "changes": [
+        "数据层从 acp_handoff.md 迁移到 Supabase",
+        "Jarvis 使用 mcp__supabase__execute_sql 直接操作数据库",
+        "新增场景3: 查询任务状态和事件流",
+        "状态机由数据库触发器强制约束",
+        "新增 Director/Worker HTTP 调用参考",
+        "归档操作拆分为 confirmed → archived 两步（匹配状态机）"
+      ]
+    },
+    {
+      "version": "v1.1",
+      "date": "2026-03-23",
+      "changes": [
+        "更新交接板路径为绝对路径",
+        "支持 Director 团队汇报格式"
+      ]
+    },
+    {
+      "version": "v1.0",
+      "date": "2026-03-21",
+      "changes": [
+        "ACP Handler Skill 初始版本",
+        "支持解析 ACP 消息格式",
+        "支持写入交接板 (acp_handoff.md)",
+        "任务ID生成规则: acp-{YYYYMMDD}-{NNN}"
+      ]
+    }
+  ]
+}

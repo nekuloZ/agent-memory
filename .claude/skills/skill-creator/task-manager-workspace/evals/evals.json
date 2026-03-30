@@ -1,0 +1,16 @@
+{
+  "skill_name": "task_manager",
+  "evals": [
+    {"id": 1, "name": "task-create-1", "prompt": "创建任务：数据清洗", "expected_output": "触发任务创建", "should_trigger": true},
+    {"id": 2, "name": "task-create-2", "prompt": "新任务：调研MCP协议", "expected_output": "触发任务创建", "should_trigger": true},
+    {"id": 3, "name": "task-create-3", "prompt": "开始研究视频生成", "expected_output": "触发任务创建", "should_trigger": true},
+    {"id": 4, "name": "task-start-1", "prompt": "开始任务：数据分析", "expected_output": "触发任务激活", "should_trigger": true},
+    {"id": 5, "name": "task-start-2", "prompt": "切换到Seedance调研任务", "expected_output": "触发任务激活", "should_trigger": true},
+    {"id": 6, "name": "task-update", "prompt": "任务数据清洗进展", "expected_output": "触发任务状态更新", "should_trigger": true},
+    {"id": 7, "name": "task-archive-1", "prompt": "归档任务数据清洗", "expected_output": "触发任务归档", "should_trigger": true},
+    {"id": 8, "name": "task-archive-2", "prompt": "任务数据清洗完成了", "expected_output": "触发任务归档", "should_trigger": true},
+    {"id": 9, "name": "task-context", "prompt": "当前在做什么任务", "expected_output": "触发任务状态查看", "should_trigger": true},
+    {"id": 10, "name": "not-task-doing", "prompt": "我正在做这个任务", "expected_output": "不应该触发（只是描述）", "should_trigger": false},
+    {"id": 11, "name": "not-task-question", "prompt": "这个任务怎么做", "expected_output": "不应该触发", "should_trigger": false}
+  ]
+}

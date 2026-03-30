@@ -1,0 +1,110 @@
+{
+  "skill_name": "progress_tracker",
+  "evals": [
+    {
+      "id": 1,
+      "name": "pause-1",
+      "prompt": "先这样",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "name": "pause-2",
+      "prompt": "先这样吧",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "name": "pause-later",
+      "prompt": "下次再说",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "name": "pause-tomorrow",
+      "prompt": "明天再弄",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "name": "pause-afternoon",
+      "prompt": "下午再试",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "name": "pause-rest",
+      "prompt": "休息一下",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "name": "pause-stop-here",
+      "prompt": "先做到这",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "name": "start-working",
+      "prompt": "开始搞这个需求",
+      "expected_output": "记录任务开始到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "name": "end-conversation",
+      "prompt": "结束了",
+      "expected_output": "记录对话总结到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "name": "end-chat",
+      "prompt": "聊完了",
+      "expected_output": "记录对话总结到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "name": "bye",
+      "prompt": "bye",
+      "expected_output": "记录对话总结到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 12,
+      "name": "pause-break",
+      "prompt": "先休息下",
+      "expected_output": "记录进展到 scratchpad",
+      "should_trigger": true
+    },
+    {
+      "id": 13,
+      "name": "not-progress-question",
+      "prompt": "这样对吗？",
+      "expected_output": "不应该触发",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "name": "not-progress-description",
+      "prompt": "先这样设置",
+      "expected_output": "不应该触发（只是描述）",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "name": "not-progress-normal",
+      "prompt": "好的",
+      "expected_output": "不应该触发",
+      "should_trigger": false
+    }
+  ]
+}

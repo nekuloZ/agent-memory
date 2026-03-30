@@ -1,0 +1,8 @@
+{
+  "skill_name": "rtsc-manager",
+  "current_version": "v1.1",
+  "versions": [
+    {"version": "v1.1", "date": "2026-02-25", "type": "minor", "summary": "新增常驻监控脚本", "changes": ["1秒1截", "自动清理"], "breaking_changes": false},
+    {"version": "v1.0", "date": "2026-02-25", "type": "initial", "summary": "初始版本", "changes": ["RTSP实时画面监控与截图"], "breaking_changes": false}
+  ]
+}

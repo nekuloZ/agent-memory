@@ -1,0 +1,40 @@
+{
+  "skill_name": "vocabulary_manager",
+  "current_version": "v1.2",
+  "changelog": [
+    {
+      "version": "v1.2",
+      "date": "2026-03-18",
+      "changes": [
+        "新增智能场景路由自动检测",
+        "集成 scene-router 预加载机制",
+        "添加 CHANGELOG.json 版本管理"
+      ],
+      "files_changed": [
+        "Skill.md"
+      ]
+    },
+    {
+      "version": "v1.1",
+      "date": "2026-02-23",
+      "changes": [
+        "补充执行操作说明",
+        "明确文件写入流程"
+      ],
+      "files_changed": [
+        "Skill.md"
+      ]
+    },
+    {
+      "version": "v1.0",
+      "date": "2026-02-13",
+      "changes": [
+        "初始版本",
+        "从 language-agent 迁移"
+      ],
+      "files_changed": [
+        "Skill.md"
+      ]
+    }
+  ]
+}

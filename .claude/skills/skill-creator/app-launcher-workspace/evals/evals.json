@@ -1,0 +1,17 @@
+{
+  "skill_name": "app_launcher",
+  "evals": [
+    {"id": 1, "name": "launch-dakai", "prompt": "打开飞书", "expected_output": "触发应用启动", "should_trigger": true},
+    {"id": 2, "name": "launch-qidong", "prompt": "启动Obsidian", "expected_output": "触发应用启动", "should_trigger": true},
+    {"id": 3, "name": "launch-yunxing", "prompt": "运行Chrome", "expected_output": "触发应用启动", "should_trigger": true},
+    {"id": 4, "name": "launch-kaishi", "prompt": "开启微信", "expected_output": "触发应用启动", "should_trigger": true},
+    {"id": 5, "name": "launch-kaiyixia", "prompt": "帮我开一下VSCode", "expected_output": "触发应用启动", "should_trigger": true},
+    {"id": 6, "name": "launch-path", "prompt": "企业微信在哪里", "expected_output": "触发应用查询", "should_trigger": true},
+    {"id": 7, "name": "launch-lujing", "prompt": "Steam路径", "expected_output": "触发应用查询", "should_trigger": true},
+    {"id": 8, "name": "launch-zhaodao", "prompt": "找到Claude Code", "expected_output": "触发应用查询", "should_trigger": true},
+    {"id": 9, "name": "launch-list", "prompt": "查看所有软件", "expected_output": "触发软件清单查询", "should_trigger": true},
+    {"id": 10, "name": "launch-add", "prompt": "添加新软件到清单", "expected_output": "触发添加软件", "should_trigger": true},
+    {"id": 11, "name": "not-launch", "prompt": "打开文件看看", "expected_output": "不应该触发", "should_trigger": false},
+    {"id": 12, "name": "not-launch-door", "prompt": "打开门", "expected_output": "不应该触发", "should_trigger": false}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "changes": [
+        "Initial release - 短句合并训练器",
+        "基于短句合并法的语言学习工具"
+      ]
+    }
+  ]
+}

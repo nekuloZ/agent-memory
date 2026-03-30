@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-12",
+      "changes": [
+        "Initial release - 影子跟读管理器",
+        "添加跟读文本、生成填空练习"
+      ]
+    }
+  ]
+}

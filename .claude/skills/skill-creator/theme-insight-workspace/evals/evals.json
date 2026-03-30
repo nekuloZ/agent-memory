@@ -1,0 +1,17 @@
+{
+  "skill_name": "theme_insight_tracker",
+  "evals": [
+    {"id": 1, "name": "insight-faxian", "prompt": "我发现自己总是拖延", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 2, "name": "insight-jueding", "prompt": "我决定每天要早起", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 3, "name": "insight-shanchang", "prompt": "我擅长写代码", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 4, "name": "insight-zhongshi", "prompt": "我重视工作效率", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 5, "name": "insight-yishi", "prompt": "我意识到这个问题", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 6, "name": "insight-yuanlai", "prompt": "原来问题是这个", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 7, "name": "insight-zhongyu", "prompt": "今天终于明白了", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 8, "name": "insight-xiangchu", "prompt": "我和同事相处时总是...", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 9, "name": "insight-perfect", "prompt": "我发现自己有完美主义倾向", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 10, "name": "insight-energy", "prompt": "我发现社交后需要独处恢复", "expected_output": "触发洞察追踪", "should_trigger": true},
+    {"id": 11, "name": "not-insight-question", "prompt": "你发现了什么？", "expected_output": "不应该触发", "should_trigger": false},
+    {"id": 12, "name": "not-insight-other", "prompt": "我发现这个文件在哪里", "expected_output": "不应该触发（外部事物）", "should_trigger": false}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "changes": [
+        "Initial release - 飞书数据导出工具",
+        "支持多维表格导出为本地 xlsx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "skill_name": "task_completion",
+  "evals": [
+    {
+      "id": 1,
+      "name": "complete-chinese-1",
+      "prompt": "完成了",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "name": "complete-chinese-2",
+      "prompt": "搞定了",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "name": "complete-chinese-3",
+      "prompt": "做完了",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "name": "complete-with-task-name",
+      "prompt": "报告生成完成了",
+      "expected_output": "提取任务名'报告生成'，执行归档",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "name": "complete-done",
+      "prompt": "这个任务done了",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "name": "complete-finished",
+      "prompt": "finished",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "name": "complete-task-done",
+      "prompt": "任务完成",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "name": "complete-archived",
+      "prompt": "归档一下这个任务",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "name": "complete-got-it",
+      "prompt": "搞定了这个",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "name": "complete-with-context",
+      "prompt": "那个数据分析的任务我做完了",
+      "expected_output": "触发任务完成归档流程",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "name": "not-complete-question",
+      "prompt": "这个完成了吗？",
+      "expected_output": "不应该触发（只是询问）",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "name": "not-complete-when",
+      "prompt": "什么时候能完成？",
+      "expected_output": "不应该触发",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "name": "not-complete-hope",
+      "prompt": "希望能顺利完成",
+      "expected_output": "不应该触发",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "name": "not-complete-doing",
+      "prompt": "正在完成这个任务",
+      "expected_output": "不应该触发（进行中）",
+      "should_trigger": false
+    }
+  ]
+}

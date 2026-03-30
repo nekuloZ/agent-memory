@@ -1,0 +1,16 @@
+{
+  "skill_name": "action_manager",
+  "evals": [
+    {"id": 1, "name": "action-do-1", "prompt": "要做数据清洗", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 2, "name": "action-do-2", "prompt": "得看一下代码", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 3, "name": "action-do-3", "prompt": "记得修复bug", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 4, "name": "action-do-4", "prompt": "需要测试一下", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 5, "name": "action-add", "prompt": "添加待办：修复登录问题", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 6, "name": "action-done", "prompt": "搞定了", "expected_output": "可能触发（取决于上下文）", "should_trigger": true},
+    {"id": 7, "name": "action-view", "prompt": "今天做什么", "expected_output": "触发动作查看", "should_trigger": true},
+    {"id": 8, "name": "action-todo", "prompt": "待办清单", "expected_output": "触发动作查看", "should_trigger": true},
+    {"id": 9, "name": "action-context", "prompt": "明天得去开会", "expected_output": "触发动作添加", "should_trigger": true},
+    {"id": 10, "name": "not-action-just", "prompt": "就是做了一下", "expected_output": "不应该触发", "should_trigger": false},
+    {"id": 11, "name": "not-action-need", "prompt": "需要更多时间", "expected_output": "不应该触发（只是描述）", "should_trigger": false}
+  ]
+}

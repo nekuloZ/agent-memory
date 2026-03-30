@@ -1,0 +1,48 @@
+{
+  "versions": [
+    {
+      "version": "v1.4",
+      "date": "2026-03-26",
+      "changes": [
+        "按五部分公式重构模板：[Cinematography] + [Subject] + [Action] + [Context] + [Style & Ambiance]",
+        "Cinematography 移至最前面，符合 Veo 3 最佳实践",
+        "更新痛点开场、产品登场、使用演示三个模板",
+        "删除冗余的 Scene/Action/Camera 标签，改为公式化标注",
+        "竖屏强制声明统一放在提示词开头"
+      ]
+    },
+    {
+      "version": "v1.3",
+      "date": "2026-03-25",
+      "changes": [
+        "新增完整相机控制指南：推荐运镜 vs 避免运镜详细表格",
+        "新增景别推荐：特写/近景/中景对应的提示词写法",
+        "新增相机控制核心原则：主体移动 > 相机移动",
+        "新增 API 参数配置示例：generationConfig 中的 aspectRatio: 9:16",
+        "补充竖屏构图要点：固定机位、推近/拉远成功率最高"
+      ]
+    },
+    {
+      "version": "v1.2",
+      "date": "2026-03-25",
+      "changes": [
+        "新增竖屏格式问题说明：Veo 3 (aichiapi) 生成横屏容器但画面内容可以是竖屏",
+        "新增保持竖屏的提示词技巧：必须包含 '9:16 VERTICAL PORTRAIT VIDEO' 和 'CRITICAL: Always vertical, never rotate'",
+        "新增双图参考技巧：分镜图 + 产品白底图用于保持产品一致性",
+        "更新输出格式：增加 reference_images 字段支持双图参考",
+        "更新示例提示词：包含竖屏强制要求",
+        "新增 API 调用示例（Python）"
+      ]
+    },
+    {
+      "version": "v1.0",
+      "date": "2026-03-25",
+      "changes": [
+        "初始版本发布",
+        "针对 Veo 3 / 可灵 / 即梦 优化的抖音竖屏广告提示词生成",
+        "支持 9:16 比例、3秒抓眼球、快节奏剪辑等抖音要素",
+        "提供 JSON 格式输出，可直接复制到 AI 视频工具"
+      ]
+    }
+  ]
+}

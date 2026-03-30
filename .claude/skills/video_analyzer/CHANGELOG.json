@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "changes": [
+        "Initial release - 视频批量分析工具",
+        "支持 B站/抖音 视频下载、转录、截图"
+      ]
+    }
+  ]
+}

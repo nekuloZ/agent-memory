@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "changes": [
+        "Initial release - 主播业绩日报 AI 分析",
+        "生成数据点评和建议"
+      ]
+    }
+  ]
+}

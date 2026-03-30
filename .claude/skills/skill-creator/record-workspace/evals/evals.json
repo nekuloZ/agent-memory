@@ -1,0 +1,75 @@
+{
+  "skill_name": "record",
+  "evals": [
+    {
+      "id": 1,
+      "name": "explicit-record-command",
+      "prompt": "/record 刚才讨论的Seedance项目方案",
+      "expected_output": "内容被写入 scratchpad.md 的今日对话摘要部分",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "name": "chinese-record-command",
+      "prompt": "记录一下，我决定用Next.js来开发这个项目",
+      "expected_output": "内容被写入 scratchpad.md，包含决策记录",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "name": "skill-needs-persist",
+      "prompt": "task_completion skill 刚执行完，需要把归档信息写入记忆",
+      "expected_output": "skill 应该调用 record 来持久化信息",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "name": "progress-tracker-call",
+      "prompt": "对话要结束了，progress_tracker 需要总结这次对话",
+      "expected_output": "progress_tracker 调用 record 记录对话总结",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "name": "insight-needs-save",
+      "prompt": "theme_insight_tracker 发现了用户的洞察，需要保存",
+      "expected_output": "调用 record 将洞察写入核心洞察部分",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "name": "habit-data-update",
+      "prompt": "habit_tracker 更新了睡眠数据，需要同步到 scratchpad",
+      "expected_output": "调用 record 更新快速概览中的睡眠信息",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "name": "random-conversation",
+      "prompt": "今天天气真不错",
+      "expected_output": "不应该触发 record",
+      "should_trigger": false
+    },
+    {
+      "id": 8,
+      "name": "code-question",
+      "prompt": "帮我写个Python脚本来处理CSV文件",
+      "expected_output": "不应该触发 record",
+      "should_trigger": false
+    },
+    {
+      "id": 9,
+      "name": "file-read-request",
+      "prompt": "读取一下昨天的日志文件",
+      "expected_output": "不应该触发 record",
+      "should_trigger": false
+    },
+    {
+      "id": 10,
+      "name": "vague-record-mention",
+      "prompt": "你有记录吗？",
+      "expected_output": "不应该触发 record（只是询问，不是命令）",
+      "should_trigger": false
+    }
+  ]
+}

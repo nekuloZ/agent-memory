@@ -1,0 +1,38 @@
+{
+  "versions": [
+    {
+      "version": "v3.0",
+      "date": "2026-03-26",
+      "changes": [
+        "新增 CDP Browser 浏览器自动化能力（类人浏览，连接Chrome继承登录态）",
+        "新增 Site Patterns 站点经验系统（references/site-patterns/）",
+        "新增 Parallel Research 并行研究机制（多目标委托子代理）",
+        "新增三层路由：规则引擎 + AI兜底 + CDP兜底",
+        "新增'像人一样浏览'哲学（设定目标、验证结果、适应障碍、达成停止）",
+        "添加小红书、微信公众号等需要登录的平台支持",
+        "扩展工具优先级矩阵，新增CDP Browser作为动态/登录页首选"
+      ],
+      "note": "参考 eze-is/web-access skill 升级"
+    },
+    {
+      "version": "v2.0",
+      "date": "2026-03-20",
+      "changes": [
+        "移除WebSearch/WebFetch（已损坏/权限问题）",
+        "更新工具优先级矩阵：P1 Tavily CLI, P2 SearXNG, P3 opencli, P4 MCP Router",
+        "添加Tavily Extract/Research/Crawl命令示例",
+        "添加Windows下PYTHONIOENCODING=utf-8解决方案",
+        "更新URL分类表",
+        "简化失败回退策略"
+      ],
+      "note": "基于实测可用工具重建"
+    },
+    {
+      "version": "v1.0.1",
+      "date": "2026-03-17",
+      "changes": [
+        "初版创建"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Skip embedded git repos
+.claude/skills/context-engineering-collection/
+.claude/skills/gstack/
+.claude/skills/temp-skills/
+
+# Skip large binaries
+*.exe
+dist/
+node_modules/

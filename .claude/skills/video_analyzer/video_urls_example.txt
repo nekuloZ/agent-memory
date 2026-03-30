@@ -1,0 +1,11 @@
+# 视频链接列表 - 支持B站和抖音
+# 每行一个链接，以#开头的是注释
+
+# B站视频示例
+https://www.bilibili.com/video/BV1xx411c7mD
+
+# 抖音视频示例
+https://www.douyin.com/video/1234567890123456789
+
+# 抖音短链接示例
+https://v.douyin.com/xxxxx/

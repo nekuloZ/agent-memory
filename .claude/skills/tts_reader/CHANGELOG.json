@@ -1,0 +1,44 @@
+{
+  "skill_name": "tts-reader",
+  "current_version": "v2.1",
+  "versions": [
+    {
+      "version": "v2.1",
+      "date": "2026-03-20",
+      "type": "minor",
+      "summary": "新增异步 Turbo 模式，省62%配额",
+      "changes": [
+        "新增 call_minimax_tts_async()，走 /v1/t2a_async_v2 接口",
+        "默认模式改为 speech-2.8-turbo 异步（225请求/次）",
+        "新增 --sync flag 保留同步 speech-2.8-hd 模式（600请求/次）",
+        "修正 turbo API 的字段名：audio_sample_rate（原 sample_rate）",
+        "轮询间隔 2s，最多60次，超时返回错误"
+      ],
+      "breaking_changes": false
+    },
+    {
+      "version": "v2.0",
+      "date": "2026-03-20",
+      "type": "major",
+      "summary": "切换到 MiniMax Speech-2.8 API",
+      "changes": [
+        "替换 edge-tts 为 MiniMax Speech-2.8 API",
+        "新增情绪控制（happy, sad, angry, anxious）",
+        "新增语气词标签支持（笑声、叹气等）",
+        "新增停顿控制（<#2#>）",
+        "依赖从 edge-tts 改为 requests"
+      ],
+      "breaking_changes": true
+    },
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "type": "initial",
+      "summary": "初始版本",
+      "changes": [
+        "文字朗读工具",
+        "支持英语/中文朗读、复读、调速"
+      ]
+    }
+  ]
+}

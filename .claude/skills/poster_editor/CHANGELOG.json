@@ -1,0 +1,19 @@
+{
+  "skill_name": "poster-editor",
+  "current_version": "v1.0",
+  "versions": [
+    {
+      "version": "v1.0",
+      "date": "2026-03-13",
+      "type": "initial",
+      "summary": "初始版本 - 海报文字编辑工具",
+      "changes": [
+        "从已完成任务 '海报编辑' 提取为可复用 Skill",
+        "包含三个核心脚本：edit_single、edit_multi、add_footer",
+        "支持单区域、多区域批量、底部色块三种编辑模式",
+        "内置 Windows 常用字体和颜色速查"
+      ],
+      "breaking_changes": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "skill_name": "habit_tracker",
+  "evals": [
+    {"id": 1, "name": "habit-sleep-1", "prompt": "昨晚12点睡，早上8点起", "expected_output": "触发习惯追踪，记录睡眠", "should_trigger": true},
+    {"id": 2, "name": "habit-sleep-2", "prompt": "昨晚11点半睡，7点起", "expected_output": "触发习惯追踪，记录睡眠", "should_trigger": true},
+    {"id": 3, "name": "habit-sleep-3", "prompt": "几点睡几点起？", "expected_output": "触发习惯追踪查询", "should_trigger": true},
+    {"id": 4, "name": "habit-sleep-4", "prompt": "睡了8小时", "expected_output": "触发习惯追踪", "should_trigger": true},
+    {"id": 5, "name": "habit-sleep-5", "prompt": "睡眠记录", "expected_output": "触发习惯追踪查询", "should_trigger": true},
+    {"id": 6, "name": "habit-shower-1", "prompt": "今天洗澡了", "expected_output": "触发习惯追踪，记录洗澡", "should_trigger": true},
+    {"id": 7, "name": "habit-shower-2", "prompt": "洗澡了", "expected_output": "触发习惯追踪", "should_trigger": true},
+    {"id": 8, "name": "habit-shower-3", "prompt": "没洗澡", "expected_output": "触发习惯追踪", "should_trigger": true},
+    {"id": 9, "name": "habit-shower-4", "prompt": "昨天洗澡了", "expected_output": "触发习惯追踪", "should_trigger": true},
+    {"id": 10, "name": "habit-command", "prompt": "/habit", "expected_output": "触发习惯追踪显示状态", "should_trigger": true},
+    {"id": 11, "name": "habit-query", "prompt": "习惯统计", "expected_output": "触发习惯追踪查询", "should_trigger": true},
+    {"id": 12, "name": "habit-archive", "prompt": "归档习惯", "expected_output": "触发习惯归档", "should_trigger": true},
+    {"id": 13, "name": "not-habit", "prompt": "洗澡水太热了", "expected_output": "不应该触发", "should_trigger": false},
+    {"id": 14, "name": "not-habit-sleep", "prompt": "睡觉吧", "expected_output": "不应该触发", "should_trigger": false}
+  ]
+}

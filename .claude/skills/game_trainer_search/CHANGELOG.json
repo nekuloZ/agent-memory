@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-02-28",
+      "changes": [
+        "Initial release - 游戏修改器搜索工具",
+        "支持 FLiNG、小幸等多数据源"
+      ]
+    }
+  ]
+}

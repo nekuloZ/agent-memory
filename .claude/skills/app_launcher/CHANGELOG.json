@@ -1,0 +1,8 @@
+{
+  "skill_name": "app-launcher",
+  "current_version": "v1.1",
+  "versions": [
+    {"version": "v1.1", "date": "2026-03-13", "type": "minor", "summary": "优化触发准确度", "changes": ["name改为英文app_launcher保持一致性", "扩展触发词：开启/开一下/在哪里/路径/找到/查看所有软件", "添加ALWAYS强调词", "明确包含查询场景"], "breaking_changes": false},
+    {"version": "v1.0", "date": "2026-01-29", "type": "initial", "summary": "初始版本", "changes": ["支持查询、打开、学习主程序路径"], "breaking_changes": false}
+  ]
+}

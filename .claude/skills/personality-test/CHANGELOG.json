@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "1.0",
+      "date": "2026-03-13",
+      "changes": [
+        "Initial release - Myers-Briggs 人格测试",
+        "70道题目确定4字母人格类型"
+      ]
+    }
+  ]
+}

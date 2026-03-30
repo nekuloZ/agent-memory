@@ -1,0 +1,22 @@
+# Agent Memory System Dependencies
+# Python 3.9+
+
+# API & HTTP
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data Processing
+python-dateutil>=2.8.0
+pyyaml>=6.0
+
+# Optional: RAG & Vector Search
+google-generativeai>=0.3.0
+supabase>=2.0.0
+
+# Optional: Obsidian Integration
+# obsidian-api  # If available
+
+# Development
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
